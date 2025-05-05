@@ -31,18 +31,6 @@ Adjust color parameters using the provided sliders.
 Preview the palette in the UI mockup.
 Copy the HEX codes or export the palette in your preferred format.
 
-Project Structure
-color-palette-generator/
-├── public/              # Static assets
-├── src/                 # Source code
-│   ├── components/      # React components
-│   ├── utils/           # Utility functions for color manipulation
-│   ├── styles/          # CSS and Tailwind styles
-│   └── App.js           # Main application component
-├── package.json         # Project dependencies and scripts
-└── README.md            # Project documentation
-
-Technologies Used
 
 React: Frontend framework for building the UI.
 Tailwind CSS: Utility-first CSS framework for styling.
