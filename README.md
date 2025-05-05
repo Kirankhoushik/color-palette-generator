@@ -48,23 +48,3 @@ React: Frontend framework for building the UI.
 Tailwind CSS: Utility-first CSS framework for styling.
 JavaScript: Core logic for color generation and manipulation.
 HTML5 Canvas: Used for generating palette previews.
-
-Contributing
-Contributions are welcome! To contribute:
-
-Fork the repository.
-Create a new branch (git checkout -b feature/your-feature).
-Make your changes and commit (git commit -m "Add your feature").
-Push to the branch (git push origin feature/your-feature).
-Open a pull request.
-
-Please ensure your code follows the project's coding standards and includes relevant tests.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-Acknowledgements
-
-Inspired by tools like Coolors and Adobe Color.
-Built with the power of open-source libraries and communities.
-
-
-Feel free to reach out with feedback or suggestions at your-email@example.com.
