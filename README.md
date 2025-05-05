@@ -1,12 +1,70 @@
-# React + Vite
+Color Palette Generator
+A simple and intuitive web-based tool to generate color palettes for your design projects. This application allows users to create harmonious color schemes, visualize them, and export them in various formats for easy integration into your workflow.
+Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Generate Palettes: Create color palettes based on a base color or randomly generated colors.
+Customize Colors: Fine-tune hue, saturation, and brightness to match your vision.
+Export Options: Copy HEX codes or export palettes as CSS, JSON, or PNG.
+Preview: Visualize your palette in a sample UI layout to see how colors work together.
+Responsive Design: Use the tool seamlessly on desktop or mobile devices.
 
-Currently, two official plugins are available:
+Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Clone the repository:git clone https://github.com/Kirankhoushik/color-palette-generator.git
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Navigate to the project directory:cd color-palette-generator
+
+
+Install dependencies:npm install
+
+
+Start the development server:npm start
+
+
+
+Usage
+
+Open the application in your browser (default: http://localhost:3000).
+Select a base color or generate a random palette.
+Adjust color parameters using the provided sliders.
+Preview the palette in the UI mockup.
+Copy the HEX codes or export the palette in your preferred format.
+
+Project Structure
+color-palette-generator/
+├── public/              # Static assets
+├── src/                 # Source code
+│   ├── components/      # React components
+│   ├── utils/           # Utility functions for color manipulation
+│   ├── styles/          # CSS and Tailwind styles
+│   └── App.js           # Main application component
+├── package.json         # Project dependencies and scripts
+└── README.md            # Project documentation
+
+Technologies Used
+
+React: Frontend framework for building the UI.
+Tailwind CSS: Utility-first CSS framework for styling.
+JavaScript: Core logic for color generation and manipulation.
+HTML5 Canvas: Used for generating palette previews.
+
+Contributing
+Contributions are welcome! To contribute:
+
+Fork the repository.
+Create a new branch (git checkout -b feature/your-feature).
+Make your changes and commit (git commit -m "Add your feature").
+Push to the branch (git push origin feature/your-feature).
+Open a pull request.
+
+Please ensure your code follows the project's coding standards and includes relevant tests.
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+Acknowledgements
+
+Inspired by tools like Coolors and Adobe Color.
+Built with the power of open-source libraries and communities.
+
+
+Feel free to reach out with feedback or suggestions at your-email@example.com.
